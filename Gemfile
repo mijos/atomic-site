@@ -38,7 +38,7 @@ gem 'middleman-deploy'
 gem "middleman-favicon-maker"
 
 # HTML & XML parsing smarts
-gem "nokogiri"
+gem "nokogiri", ">= 1.10.8"
 
 # Syntax highlighting
 gem "middleman-syntax"
@@ -80,7 +80,7 @@ gem "less"
 gem "asciidoctor"
 
 # mediawiki
-gem "wikicloth"
+gem "wikicloth", ">= 0.8.3"
 
 gem "coderay"
 gem "stringex"
@@ -91,7 +91,7 @@ gem 'redcarpet'
 gem 'open-uri-cached'
 
 # RSS/Atom parsing
-gem "feedjira"
+gem "feedjira", ">= 1.6.0"
 
 gem "launchy"
 gem "slop"
