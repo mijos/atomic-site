@@ -86,7 +86,7 @@ gem "coderay"
 gem "stringex"
 
 # Markdown
-gem 'redcarpet'
+gem 'redcarpet', '>= 3.5.1'
 
 gem 'open-uri-cached'
 
